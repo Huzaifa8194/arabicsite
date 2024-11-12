@@ -1,7 +1,7 @@
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 import { getAuth } from "@clerk/nextjs/server";
 
-export default async function middleware(req) {
+export default async function middleware(req: NextRequest) {
   const auth = getAuth(req);
 
   // Check if the route is public
