@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "preview": "next start",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
@@ -38,7 +39,7 @@
     "@reduxjs/toolkit": "^2.2.7",
     "@tanstack/react-table": "^8.9.11",
     "@types/node": "20.6.0",
-    "@types/react": "18.2.21",
+    "@types/react": "^18.0.0",
     "@types/react-dom": "18.2.7",
     "@uploadthing/react": "^6.2.2",
     "@vercel/speed-insights": "^1.0.12",

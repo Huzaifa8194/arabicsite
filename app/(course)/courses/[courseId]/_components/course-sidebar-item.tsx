@@ -22,7 +22,7 @@ import {
 import {
   JSXElementConstructor,
   Key,
-  PromiseLikeOfReactNode,
+ 
   ReactElement,
   ReactNode,
   ReactPortal,
@@ -146,7 +146,7 @@ export const CourseSidebarItem = ({
                     | ReactElement<any, string | JSXElementConstructor<any>>
                     | Iterable<ReactNode>
                     | ReactPortal
-                    | PromiseLikeOfReactNode
+                    
                     | null
                     | undefined;
                 },
